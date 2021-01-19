@@ -1,6 +1,27 @@
 # Discord-bot
 Complex discord bot built and developed with python for my discord server about programming. Join the server with https://discord.gg/wvjZtgpCbT. The bot itself isn't public just yet.
 
+List of commands and events below
+```
+- ban
+- tempban
+- mute
+- unmute
+- tempmute
+- clear
+- coinflip
+- info
+- invite
+- kick
+- on_member_join
+- on_member_leave
+- on_message
+- on_raw_reaction_add
+- on_raw_reaction_remove
+- roles
+and json save system
+```
+
 # Getting or updating the code
 Fell free to fetch the code for test/learn purpouses. You can do it with either opening terminal and typing `git clone https://github.com/MaxCieplinski/Discord-bot.git` or pressing the clone button on the main project page. Running or distributing the bot it is not well seen.
 

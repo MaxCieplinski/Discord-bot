@@ -52,10 +52,11 @@ class Roles(commands.Cog):
         role_name = emotes.get(emoji, None)
         if None not in (member, role_name):
             role = discord.utils.get(guild.roles, name=role_name)
-            if value:
-                await member.add_roles(role)
-            else:
-                await member.remove_roles(role)
+            if member.id != 797832568665145354:
+                if value:
+                    await member.add_roles(role)
+                else:
+                    await member.remove_roles(role)
         
 
     @commands.Cog.listener()

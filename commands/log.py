@@ -10,7 +10,7 @@ class Log(commands.Cog):
         await self.client.get_channel(797787010113863721).send(f'`{member}` has joined.')
         embed = discord.Embed(
             title = 'Welcome',
-            description = f"{member} has just joined! Let's welcome him warmly.",
+            description = f"`{member}` has just joined! Let's welcome him warmly.",
             color = discord.Color.blurple()
         )
         embed.set_thumbnail(url=member.avatar_url)
