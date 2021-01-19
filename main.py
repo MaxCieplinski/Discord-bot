@@ -52,4 +52,4 @@ async def on_ready():
     with open('data.json', 'w') as f:
 	    json.dump(data, f)
 
-client.run('Nzk3ODMyNTY4NjY1MTQ1MzU0.X_sNew.-2HVBone7c7tba9qBRopuziBRKI')
+client.run('')
