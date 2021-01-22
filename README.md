@@ -19,6 +19,7 @@ List of commands and events below
 - on_raw_reaction_add
 - on_raw_reaction_remove
 - roles
+- calculate
 and json save system
 ```
 
