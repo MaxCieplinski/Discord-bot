@@ -8,9 +8,10 @@ class Remind(commands.Cog):
     @commands.command()
     async def remind(self, ctx, time, *,  words):
         if time.isdecimal():
-            await asyncio.sleep(time*60)
+            await asyncio.sleep(int(time)*60)
             await ctx.send(f'Reminding {ctx.author.mention} : ' + ''.join(words))
         else:
+            words.append(time)
             await ctx.send(f'Reminding {ctx.author.mention} : ' + ''.join(words))
 
 def setup(client):

@@ -9,9 +9,10 @@ class Write(commands.Cog):
     @commands.command()
     async def write(self, ctx, time, *, words):
         if time.isdecimal():
-            await asyncio.sleep(time*60)
+            await asyncio.sleep(int(time)*60)
             await ctx.send(''.join(words))
         else:
+            words.append(time)
             await ctx.send(''.join(words))
 
 def setup(client):
