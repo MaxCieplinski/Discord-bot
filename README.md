@@ -20,6 +20,10 @@ List of commands and events below
 - on_raw_reaction_remove
 - roles
 - calculate
+- silence
+- unsilence
+- write
+- remind
 and json save system
 ```
 
